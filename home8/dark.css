@@ -1,0 +1,204 @@
+@font-face {
+font-family: AdventPro;
+src: url(fonts/adventpro-regular.ttf);
+}
+@font-face {
+font-family: TschichLightFS;
+src: url(fonts/TschichLightFS.ttf);
+}
+
+.body{
+  width: 1100px;
+  height: 650px;
+  background-image: url(image/background.jpg);
+  margin: auto;
+}
+
+/*logo start*/
+
+.header{
+  width: 350px;
+  height: 150px;
+  margin:auto;
+  background-image: url(image/logo.jpg);
+}
+
+.LOGOHERE {
+  letter-spacing:5px;
+  font-size: 40px;
+  font-family: "TschichLightFS";
+  font-weight:700;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.34);
+  padding: 40px 15px 20px;
+  z-index: 28;
+}
+.logoSpan{
+text-shadow:none;
+font-weight:100;
+}
+
+.slogan{
+  font-size: 14px;
+  font-family: "AdventPro";
+  color: rgb(133, 182, 199);
+  line-height: 0.948;
+  text-shadow: 0.5px 0.866px 1px rgba(36, 93, 113, 0.004);
+
+  text-align: center;
+  z-index: 50;
+}
+
+/*logo end*/
+
+
+/*menu start*/
+.menu{
+  width: 961px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.navigation{
+
+  width: 961px;
+  margin: 0px auto;
+  list-style-type: none;
+  font-size: 17px;
+  font-family: "AdventPro";
+  color: rgb(156, 156, 156);
+  line-height: 1.765;
+  text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.47);
+  z-index: 24;
+  padding: 10px 0px;
+
+}
+
+ul.navigation li a{
+text-decoration: none;
+color: rgb(156, 156, 156);
+display: block;
+}
+
+ul.navigation li a:hover{
+  color: #ffffff;
+  text-decoration:none;
+  background-color: #42809c;
+}
+
+ul.navigation li{
+  float:left;
+  background-color: #4d4d4d;
+  text-align: center;
+  width:150px;
+  margin-right: 12px;
+  }
+
+#endLi{
+  margin-right:0px;
+
+}
+/*menu end*/
+
+/*main start*/
+
+.main{
+  width:961px;
+  height: 342px;
+  background-image:url(image/pole.jpg);
+  margin: 0 auto;
+  z-index:100;
+  position: relative;
+}
+
+.main div{
+    width: 961px;
+    height: 50px;
+    position: absolute;
+    bottom: 40px;
+    background-image: url(image/line.png);
+
+}
+
+.LOREM{
+  font-size: 30px;
+  font-family: "AdventPro";
+  color: rgb(240, 253, 151);
+  line-height: 1;
+  text-align: center;
+  text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
+  padding-top: 12px;
+  z-index: 15;
+}
+
+/*main end*/
+
+/*footer start*/
+.footer{
+  width: 961px;
+  height: 50px;
+  margin: 10px auto;
+  font-size: 14px;
+  font-family: "AdventPro";
+  color: rgb(83, 83, 83);
+  z-index: 8;
+}
+
+div.footer > div{
+  width: 330px;
+  height: 50px;
+}
+
+.footerLeft{
+  float: left;
+
+}
+
+.footerRight{
+  float: right;
+}
+
+.hr{
+  background-color: rgb(83, 83, 83);
+  border:none;
+  height:2px;
+}
+
+div.footer ul li{
+  list-style-type: none;
+  float:left;
+  border-left: 1px solid;
+  padding: 0 5px;
+  margin: 0 1px 0 -1px;
+
+}
+
+.ulFooter{
+  overflow: hidden;
+  padding: 0;
+}
+
+ul.ulFooter li a{
+  text-decoration: none;
+  display: block;
+  color: rgb(83, 83, 83);
+}
+
+ul.ulFooter li a:hover{
+  color: #ffffff;
+  text-decoration:none;
+  background-color: none;
+}
+
+#FixedDiv{
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+
+/*footer end*/

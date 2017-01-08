@@ -1,0 +1,139 @@
+﻿<html>
+    <head>
+        <title>Мое домашнее задание</title>
+    </head>
+    <body>
+        <h1 align="center">Пример сложной таблицы</h1>
+        <p align="center">исходный пример</p>
+        <p align="center">
+            <img src="HomeWork.jpg" width="500" alt="Пример" title="Пример" />
+        </p>
+
+        <p align="center"> моя таблица</p>
+        <table width="600" border="1" align="center">
+            <tr>
+                <td rowspan="2">&nbsp;</td>
+                <td rowspan="2" colspan="2">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                
+            </tr>
+
+            <tr >
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr height="400">
+                <!-- тут непонятно, как сделать высокие ячейки -->
+                <td>&nbsp;</td>
+                <td colspan="2">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td rowspan="2" colspan="2">&nbsp;</td>
+                <td rowspan="2">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <p align="center"> непонятно, как сделать четвёртую строку высокой.
+         При установке для всех трёх столбиков параметра rowspan получается ерунда</p>
+
+<hr />
+        <h1 align="center">Задача 1</h1>
+        <p align="center">Создайте таблицу на три колнки (имя фамилия возраст). 
+        Добавьте несколько строк и заполните их. Выровняйте текст по центру ячеек.</p>
+
+        <table width="600" border="1" align="center">
+            <caption>Табличка ИФВ</caption>
+            <tr>
+                <th align="center">Имя</th>
+                <th align="center">Фамилия</th>
+                <th align="center">Возраст</th>
+            </tr>
+
+            <tr>
+                <td align="center">Олег</td>
+                <td align="center">Иванов</td>
+                <td align="center">25</td>
+            </tr>
+
+            <tr>
+                <td align="center">Дарья</td>
+                <td align="center">Донцова</td>
+                <td align="center">48</td>
+            </tr>
+
+            <tr>
+                <td align="center">Марина</td>
+                <td align="center">Остафьева</td>
+                <td align="center">32</td>
+            </tr>
+
+            <tr>
+                <td align="center">Павел</td>
+                <td align="center">Васюков</td>
+                <td align="center">34</td>
+            </tr>
+        </table>
+        <hr />
+
+        <h1 align="center">Задача 2</h1>
+        <p align="center">
+            Создайте таблицу на три строки и три колонки.Объедините первые две ячейки первой строки.
+            Объедините последние две ячейки третьей строки.
+        </p>
+        <table width="600" border="1" align="center">
+            <caption>ещё одна тестовая табличка :)</caption>
+            <tr>
+                <td colspan = "2">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan = "2">&nbsp;</td>
+            </tr>
+        </table>
+
+            <hr />
+
+
+            <h1 align="center">Задача 3</h1>
+            <p align="center">
+                Создайте маркированный список со своими маркерами (маркер - изображение).
+            </p>
+        <table align="center">
+            <tr>
+                <td>
+                    <ul style="list-style-image:url(myMarker.png)">
+                        <li>Язь</li>
+                        <li>Жерех</li>
+                        <li>Голавль</li>
+                        <li>Синец</li>
+                    </ul>
+                </td>
+            </tr>
+
+        </table>
+        <p align="center">
+            Насколько адекватный вариант складывать список в таблицу только для того, чтоб разместить список по центру?
+        </p>
+</body>
+</html>

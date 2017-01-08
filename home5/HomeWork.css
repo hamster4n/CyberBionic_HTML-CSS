@@ -1,0 +1,27 @@
+﻿body {
+}
+
+.div_visible{
+    background-color:chartreuse;
+    color:brown;
+    font-size:24px;
+    width:300px;
+    height:100px;
+}
+
+.div_unvisible{
+    display:none;
+}
+
+div:hover + .div_unvisible{
+    display:block;
+    background-color:crimson;
+    color:indigo;
+    font-size:24px;
+    width:500px;
+    height:100px;
+
+    
+}
+
+

@@ -1,0 +1,57 @@
+﻿body {
+    font-size:24px;
+}
+
+
+
+div{
+    margin:auto;
+    font-family:'Comic Sans MS';
+}
+.circle{
+    width:300px;
+    height:300px;
+    border: 2px solid;
+    border-radius: 300px;
+   
+}
+
+#Idcircle1{
+    padding:130px 50px;
+    box-sizing:border-box;
+    background-color:blueviolet;
+    position:relative;
+    top:50px;
+}
+
+#Idcircle2{
+    background-image:url(bgdesert.jpg);
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+#Idcircle2:hover
+        { 
+            filter: alpha(opacity=100);
+            opacity: 1.0;
+        
+        }
+
+.rectangle{
+    width:600px;
+    height:600px;
+    background-color:chartreuse;
+    
+}
+
+        #FixedDiv {
+            width: 200px;
+            height: 20px;
+            text-align: center;
+            font-size: 10pt;
+            color: black;
+            background-color: aquamarine;
+            bottom: 50px;
+            left: 100px;
+            position: fixed;
+        }

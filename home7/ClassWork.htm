@@ -1,0 +1,148 @@
+﻿<!--
+
+Создайте форму со следующими полями:
+
+Текстовые поля по 50 символов с максимальной длиной 50
+                                                            Имя 
+                                                            Фамилия 
+                                                            Отчество
+Радио-переключатель
+                            Пол(М/Ж)
+
+Выпадающий список
+                            Выбор курса(C# Essential, C# Professional, HTML, CSS, JavaScript, jQuery)
+
+Группа флажков
+                            Выбор пройденных курсов (C# Essential, C# Professional, HTML, CSS, JavaScript, jQuery)
+
+Многострочное поле для ввода
+                            Дополнительные сведения
+Кнопки
+                            Кнопки отправки на сервер и очистки полей
+
+-->
+<html>
+    <head>
+        <title>Классная работа</title>
+        <style type="text/css">
+            .main{
+                height:430px;
+                width:600px;
+                background-color:#FFFF99;
+                margin:100px auto;
+                font-size:16px;
+                font-family:'Times New Roman';
+
+            }
+            .header{
+                height:30px;
+                width:600px;
+                background-color:#FFCC00;
+                font-size:18px;
+                text-align:center;
+                padding-top:5px;
+                font-weight:bold;
+                
+            }
+
+            table{
+                width:auto;
+                
+            }
+            .former{
+
+            }
+
+           input{
+               margin: 7px 0;
+           }
+
+           .alignRigt{
+               text-align:right;
+               padding-right:10px;
+           }
+
+           .alignLeft{
+               text-align:left;
+           }
+
+        </style>
+
+
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">The World of Fruit</div>
+            <div class="former">
+                <form>
+                    <br />
+                    <table>
+                         <tr>
+                            <td class="alignRigt"><for="Name" accesskey="a">Name</td>
+                            <td class="alignLeft"><input type="text" id="name" name="name" /></td>
+                        </tr>
+
+                        <tr>
+                            <td class="alignRigt"><for="Address" accesskey="s">Address</td>
+                            <td class="alignLeft"><input type="text" id="address" name="address" /></td>
+                        </tr>
+
+                        <tr>
+                            <td class="alignRigt"><for="Email" accesskey="p">Email</td>
+                            <td class="alignLeft"><input type="email" id="email" name="email" /></td>
+                        </tr>
+
+                        <tr>
+                            <td class="alignRigt">How many pieces of fruit</td>
+                            <td class="alignLeft"><input type="radio" name="pieces of fruit" value="0" />0</td>
+                        </tr>
+
+                        <tr>
+                            <td class="alignRigt">do you eat per day?</td>
+                            <td class="alignLeft"><input type="radio" name="pieces of fruit" value="1" />1</td>
+                        </tr>
+
+                        <tr>
+                            <td class="alignRigt"></td>
+                            <td class="alignLeft"><input type="radio" name="pieces of fruit" value="2" />2</td>
+                        </tr>
+                        <tr>
+                            <td class="alignRigt"></td>
+                            <td class="alignLeft"><input type="radio" name="pieces of fruit" value="3" />More than 2</td>
+                        </tr>
+                        <tr>
+                            <td class="alignRigt">My favorite fruit</td>
+                            <td class="alignLeft">
+                                <select multiple="multiple" name="select">
+                                    <option value="film001">Apple </option>
+                                    <option value="film002">Banana</option>
+                                    <option value="film003">Plum</option>
+                                    <option value="film004">Pomegranate</option>
+                                    <option value="film005">Pineapple</option>
+                                    <option value="film006">Pear</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="alignRigt">I like Bike:</td>
+                            <td class="alignLeft"><input type="checkbox" name="input_1" value="bike" /></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="alignLeft"><input type="submit" name="submit" value="submit" /></td>
+                        </tr>
+
+
+
+
+                    </table>
+
+</form>
+            </div>
+        </div>
+
+        
+
+
+    </body>
+</html>
